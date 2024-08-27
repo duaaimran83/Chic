@@ -1,0 +1,86 @@
+.footer
+{
+    padding: 4rem 0%;
+}
+
+.footer .box-container
+{
+    width: 1440px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    gap: 20px;
+}
+
+.footer .box-container .box:nth-child(2)
+{
+    margin-left: 100px;
+}
+
+.footer .box-container .box h4
+{
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.footer .box-container .box ul li,
+.footer .box-container .box ul li a
+{
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #b6b6b6;
+}
+
+.footer .box-container .box ul li:hover a
+{
+    color: var(--color-brown);
+}
+
+.footer .box-container .box p
+{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #b6b6b6;
+    margin-bottom: 2rem;
+}
+
+.footer .box-container .box p a
+{
+    color: var(--color-brown);
+}
+
+/* Responsive */
+@media screen and (max-width: 1440px)
+{
+    .footer
+    {
+        padding: 4rem 4%;
+    }
+    .footer .box-container
+    {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px)
+{
+    .footer
+    {
+        padding: 2rem 4%;
+    }
+    .footer .box-container
+    {
+        flex-direction: column;
+    }
+    .footer .box-container .box:nth-child(1)
+    {
+        width: 100%;
+    }
+    .footer .box-container .box:nth-child(2)
+    {
+        margin-left: 0px;
+    }
+}

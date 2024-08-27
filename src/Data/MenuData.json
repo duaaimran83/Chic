@@ -1,0 +1,37 @@
+{
+    "menu": [
+      {"name": "Home", "link": "#"},
+      {
+        "name": "Pages",
+        "link": "#",
+        "iconClass": "fa-solid fa-sort-down",
+        "subMenu": [
+          {"name": "About Us", "link": "#"},
+          {"name": "Our Services", "link": "#"},
+          {"name": "Our Team", "link": "#"},
+          {"name": "Team Member", "link": "#"},
+          {"name": "FAQ Pages", "link": "#"}
+        ]
+      },
+      {
+        "name": "Shop",
+        "link": "#",
+        "iconClass": "fa-solid fa-sort-down",
+        "subMenu": [
+          {"name": "Architecture", "link": "#"},
+          {"name": "Building", "link": "#"},
+          {"name": "Decoration", "link": "#"},
+          {"name": "Designe", "link": "#"},
+          {"name": "Interiror", "link": "#"}
+        ]
+      },
+      {"name": "Blog", "link": "#"},
+      {"name": "Landing", "link": "#"}
+    ],
+    "social_media": [
+      {"name": "IG", "link": "#"},
+      {"name": "X", "link": "#"},
+      {"name": "YT", "link": "#"}
+    ]
+  }
+  

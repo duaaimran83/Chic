@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "name": "Leather Armchairs",
+      "price": 199.00,
+      "image": "prod1.jpg",
+      "link": "#"
+    },
+    {
+      "id": 2,
+      "name": "Vases",
+      "price": 86.00,
+      "image": "prod2.jpg",
+      "link": "#"
+    },
+    {
+      "id": 3,
+      "name": "White chairs",
+      "price": 69.00,
+      "image": "prod3.jpg",
+      "link": "#"
+    }
+]  

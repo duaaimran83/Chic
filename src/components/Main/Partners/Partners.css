@@ -1,0 +1,24 @@
+.mySwiper1
+{
+    width: 1440px;
+    margin: 0 auto;
+    padding: 4rem 0%;
+}
+.mySwiper1 img
+{
+    width: 100px;
+}
+
+.swiper-wrapper
+{
+    align-items: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px)
+{
+    .mySwiper1
+    {
+        width: 100%;
+    }    
+}

@@ -1,0 +1,43 @@
+{
+    "boxs": [
+      {
+        "type": "text",
+        "title": "Recognizing the need is the primary condition",
+        "content": [
+          "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore<br> eu fugiat nulla pariatur. Excepteursint occaecat cupidatat non providen<br> sunt in culpa.",
+          "© 2024 <a href=\"#\">Coobrang</a>, All Rights Reserved"
+        ]
+      },
+      {
+        "type": "links",
+        "title": "Project",
+        "content": [
+        { "name": "Residential", "url": "#" },
+        { "name": "Interior", "url": "#" },
+        { "name": "Competitions", "url": "#" },
+        { "name": "Reuse", "url": "#" }
+        ]
+      },
+      {
+        "type": "links",
+        "title": "Quick Links",
+        "content": [
+        { "name": "Home", "url": "#" },
+        { "name": "ABout Us", "url": "#" },
+        { "name": "Contact", "url": "#" },
+        { "name": "FAQ", "url": "#" }
+        ]
+      },
+      {
+        "type": "contact",
+        "title": "Contact",
+        "content": [
+          "A: Seestrasse 21, Zurich, Switzerland",
+          "E: tadao@example.com",
+          "T: 99 4 11 123 456",
+          "T: 99 4 11 123 457",
+          "H: Tuesday to Friday 11am - 6pm"
+        ]
+      }
+    ]
+}  

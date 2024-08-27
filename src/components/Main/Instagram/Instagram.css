@@ -1,0 +1,38 @@
+.instagram
+{
+    padding: 4rem 1rem 2rem;
+}
+
+.instagram .box-container
+{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    align-items: center;
+    gap: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.instagram .box-container .box .image
+{
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.instagram .box-container .box .image img
+{
+    width: 100%;
+}
+
+.instagram .box-container .box .image:hover img
+{
+    transform: scale(1.03);
+}
+
+.overlay i
+{
+    font-size: 2rem;
+    color: #b6b6b6;
+}

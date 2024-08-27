@@ -1,0 +1,35 @@
+{
+    "boxes": [
+      {
+        "image": "insta1.jpg",
+        "iconClass": "fa-brands fa-instagram",
+        "link": "#"
+      },
+      {
+        "image": "insta2.jpg",
+        "iconClass": "fa-brands fa-instagram",
+        "link": "#"
+      },
+      {
+        "image": "insta3.jpg",
+        "iconClass": "fa-brands fa-instagram",
+        "link": "#"
+      },
+      {
+        "image": "insta4.jpg",
+        "iconClass": "fa-brands fa-instagram",
+        "link": "#"
+      },
+      {
+        "image": "insta5.jpg",
+        "iconClass": "fa-brands fa-instagram",
+        "link": "#"
+      },
+      {
+        "image": "insta6.jpg",
+        "iconClass": "fa-brands fa-instagram",
+        "link": "#"
+      }
+    ]
+  }
+  
