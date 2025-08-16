@@ -1,0 +1,30 @@
+{
+    "title": "Testimonials",
+    "description": "What our clients say about us",
+    "testimonials": [
+      {
+        "id": 1,
+        "name": "Sarah Ahmed",
+        "role": "Homeowner",
+        "rating": 5,
+        "comment": "Calisto Home transformed our living room with their exquisite furniture. The quality and craftsmanship are outstanding!",
+        "image": "client1.png"
+      },
+      {
+        "id": 2,
+        "name": "Ahmed Khan",
+        "role": "Business Owner",
+        "rating": 5,
+        "comment": "Professional service from start to finish. Our office furniture is both functional and beautiful.",
+        "image": "client3.png"
+      },
+      {
+        "id": 3,
+        "name": "Fatima Zahra",
+        "role": "Interior Designer",
+        "rating": 5,
+        "comment": "I've been working with Calisto for 2 years now. Their custom pieces always exceed expectations.",
+        "image": "client4.png"
+      }
+    ]
+  } 

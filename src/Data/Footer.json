@@ -4,27 +4,27 @@
         "type": "text",
         "title": "Recognizing the need is the primary condition",
         "content": [
-          "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore<br> eu fugiat nulla pariatur. Excepteursint occaecat cupidatat non providen<br> sunt in culpa.",
-          "© 2024 <a href=\"#\">Coobrang</a>, All Rights Reserved"
+          "Pakistan’s custom furniture brand. Discover handcrafted bedroom sets, office furniture, and luxury interiors designed for comfort, elegance, and durability.",
+          "© 2025 <a href=\"http://calisto.pk/\">Calisto</a>, All Rights Reserved"
         ]
       },
       {
         "type": "links",
-        "title": "Project",
+        "title": "Interiors",
         "content": [
-        { "name": "Residential", "url": "#" },
-        { "name": "Interior", "url": "#" },
-        { "name": "Competitions", "url": "#" },
-        { "name": "Reuse", "url": "#" }
+        { "name": "Bedroom", "url": "/bedroom" },
+        { "name": "Living Room", "url": "/living-room" },
+        { "name": "Dining Room", "url": "/dining-room" },
+        { "name": "Recreation Room", "url": "/recreation-room" }
         ]
       },
       {
         "type": "links",
         "title": "Quick Links",
         "content": [
-        { "name": "Home", "url": "#" },
-        { "name": "ABout Us", "url": "#" },
-        { "name": "Contact", "url": "#" },
+        { "name": "Home", "url": "http://calisto.pk/" },
+        { "name": "About Us", "url": "/about" },
+        { "name": "Contact", "url": "/contact" },
         { "name": "FAQ", "url": "#" }
         ]
       },
@@ -32,11 +32,10 @@
         "type": "contact",
         "title": "Contact",
         "content": [
-          "A: Seestrasse 21, Zurich, Switzerland",
-          "E: tadao@example.com",
-          "T: 99 4 11 123 456",
-          "T: 99 4 11 123 457",
-          "H: Tuesday to Friday 11am - 6pm"
+          "A: Lahore, Punjab, Pakistan",
+          "E: calisto.pk@gmail.com",
+          "T: +92 334 6444495",
+          "H: Monday to Saturday 10am - 8pm"
         ]
       }
     ]

@@ -32,7 +32,7 @@ const Products = () => {
             </a>
             <div className="content">
               <h4>{product.name}</h4>
-              <h5>${product.price.toFixed(2)}</h5>
+              <h5>Rs. {product.price.toLocaleString('en-PK', { maximumFractionDigits: 2 })}</h5>
             </div>
           </div>
         ))}

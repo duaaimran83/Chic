@@ -1,37 +1,25 @@
 {
     "menu": [
-      {"name": "Home", "link": "#"},
+      {"name": "Home", "link": "/"},
+      {"name": "About Us", "link": "/about"},
       {
-        "name": "Pages",
-        "link": "#",
+        "name": "Interiors",
+        "link": "/rooms",
         "iconClass": "fa-solid fa-sort-down",
         "subMenu": [
-          {"name": "About Us", "link": "#"},
-          {"name": "Our Services", "link": "#"},
-          {"name": "Our Team", "link": "#"},
-          {"name": "Team Member", "link": "#"},
-          {"name": "FAQ Pages", "link": "#"}
-        ]
-      },
-      {
-        "name": "Shop",
-        "link": "#",
-        "iconClass": "fa-solid fa-sort-down",
-        "subMenu": [
-          {"name": "Architecture", "link": "#"},
-          {"name": "Building", "link": "#"},
-          {"name": "Decoration", "link": "#"},
-          {"name": "Designe", "link": "#"},
-          {"name": "Interiror", "link": "#"}
+          {"name": "Bedroom", "link": "/bedroom"},
+          {"name": "Living Room", "link": "/living-room"},
+          {"name": "Dining Room", "link": "/dining-room"},
+          {"name": "Recreation Room", "link": "/recreation-room"}
         ]
       },
       {"name": "Blog", "link": "#"},
-      {"name": "Landing", "link": "#"}
+      {"name": "Catalogue", "link": "https://drive.google.com/file/d/1kX7i5VQ1V-OCj7UyGfWl170ZoK97MEVm/view?usp=sharing"}
     ],
     "social_media": [
-      {"name": "IG", "link": "#"},
-      {"name": "X", "link": "#"},
-      {"name": "YT", "link": "#"}
+      {"name": "IG", "link": "https://www.instagram.com/calisto_home/"},
+      {"name": "FB", "link": "https://www.facebook.com/calistohome"},
+      {"name": "Linkedin", "link": "https://pk.linkedin.com/in/calisto-home-1751361b7"}
     ]
   }
   

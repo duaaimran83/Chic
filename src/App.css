@@ -13,12 +13,29 @@
   /* Colors */
   --color-white: #ffffff;
   --color-black: #000000;
-  --color-brown: #8E7861;
+  --color-brown: #ad9056;
 }
 
-body
-{
+:root {
+  --color-brown: #ad9056;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-bg: #000000;
+  --color-text: var(--color-brown);
+}
+
+body[data-theme='light'] {
+  --color-bg: #ffffff;
+  --color-text: #222222;
+}
+
+body[data-theme='dark'] {
+  --color-bg: #000000;
+  --color-text: var(--color-brown);
+}
+
+body {
   font-family: "Poppins", sans-serif;
-  background-color: var(--color-black);
-  color: var(--color-brown);
+  background-color: var(--color-bg);
+  color: var(--color-text);
 }

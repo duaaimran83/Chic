@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import "./Prices.css";
-import pricesData from "../../../Data/Prices.json";
+import testimonialsData from "../../../Data/testimonials.json";
 
 const Prices = () => {
-  const [data, setData] = useState({ title: '', description: '', boxs: [] });
+  const [data, setData] = useState({ title: '', description: '', testimonials: [] });
 
   useEffect(() => {
-    setData(pricesData);
+    setData(testimonialsData);
   }, []);
 
   return (
@@ -16,16 +16,18 @@ const Prices = () => {
         <p>{data.description}</p>
       </div>
       <div className="box-container">
-        {data.boxs.map(box => (
-          <div className="box" key={box.id}>
-            <span>{box.title}</span>
-            <h3>${box.price}</h3>
+        {data.testimonials.map(testimonial => (
+          <div className="box" key={testimonial.id}>
+            <span>{testimonial.name}</span>
+            <h3>{testimonial.role}</h3>
             <ul>
-              {box.features.map((feature, index) => (
-                <li key={index}>{feature}</li>
-              ))}
+              <li>{testimonial.comment}</li>
             </ul>
-            <a href={box.linkUrl}>{box.linkText} <i className={box.iconClass}></i></a>
+            <div className="rating">
+              {[...Array(testimonial.rating)].map((_, i) => (
+                <i key={i} className="fa-solid fa-star"></i>
+              ))}
+            </div>
           </div>
         ))}
       </div>

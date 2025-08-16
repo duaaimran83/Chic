@@ -3,7 +3,7 @@ import "./Header.css";
 import Logo from "../../assets/logo.png";
 import MenuData from "../../Data/MenuData.json";
 
-const Header = () => {
+const Header = ({ toggleTheme }) => {
   const [activeMenu, setActiveMenu] = useState(null);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [openMenu, setOpenMenu] = useState(null);
@@ -106,6 +106,11 @@ const Header = () => {
                 <a href={item.link}>{item.name}</a>
               </li>
             ))}
+            <li>
+              <button className="theme-toggle-btn" onClick={toggleTheme} title="Toggle light/dark mode">
+                <i className="fa-solid fa-circle-half-stroke"></i>
+              </button>
+            </li>
           </ul>
           </div>
 

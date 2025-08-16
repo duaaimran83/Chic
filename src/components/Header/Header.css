@@ -119,6 +119,21 @@
     color: var(--color-white);
 }
 
+.theme-toggle-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--color-brown);
+  font-size: 1.2rem;
+  padding: 0 8px;
+  display: flex;
+  align-items: center;
+  transition: color 0.2s;
+}
+.theme-toggle-btn:hover {
+  color: var(--color-white);
+}
+
 /* Mobile Menu */
 .mobile-menu-button
 {
