@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import "./ContactUs.css";
 import Slider1 from "../assets/Slider1.jpg";
 
