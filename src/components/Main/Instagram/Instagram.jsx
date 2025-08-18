@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import "./Instagram.css";
 import InstaData from "../../../Data/Instagram.json";
 

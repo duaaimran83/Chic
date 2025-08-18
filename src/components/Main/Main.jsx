@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import "./Main.css";
 import Slider from "../Main/Slider/Slider"; 
 import Highlight from "../Main/Highlight/Highlight"; 
