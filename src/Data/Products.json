@@ -9,14 +9,14 @@
     {
       "id": 2,
       "name": "Vases",
-      "price": 899.00,
+      "price": "Contact us for price",
       "image": "prod2.jpg",
       "link": "#"
     },
     {
       "id": 3,
       "name": "White chairs",
-      "price": 39999.00,
+      "price": "Contact us for price",
       "image": "prod3.jpg",
       "link": "#"
     }
