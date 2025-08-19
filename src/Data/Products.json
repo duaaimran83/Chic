@@ -2,21 +2,21 @@
     {
       "id": 1,
       "name": "Leather Armchairs",
-      "price": "Contact us for price",
+      "price": "Rs. 25,000",
       "image": "prod1.jpg",
       "link": "#"
     },
     {
       "id": 2,
       "name": "Vases",
-      "price": "Contact us for price",
+      "price": "Rs. 5,000",
       "image": "prod2.jpg",
       "link": "#"
     },
     {
       "id": 3,
       "name": "White chairs",
-      "price": "Contact us for price",
+      "price": "Rs. 15,000",
       "image": "prod3.jpg",
       "link": "#"
     }

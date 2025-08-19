@@ -25,14 +25,11 @@ const Products = () => {
             <a href={product.link} key={product.id} className="product-link" target="_blank" rel="noopener noreferrer">
                 <div className="image">
                     <img src={imagePath(product.image)} alt={product.name} />
-                    <div className="overlay">
-                        <div className="text">Read More</div>
-                    </div>
                 </div>
             </a>
             <div className="content">
               <h4>{product.name}</h4>
-              <h5>Rs. {product.price.toLocaleString('en-PK', { maximumFractionDigits: 2 })}</h5>
+              <h5>Contact us for price</h5>
             </div>
           </div>
         ))}
