@@ -8,112 +8,112 @@ const LivingRoomPage = () => {
       name: "Sofa Set",
       image: "prod1.jpg",
       description: "Comfortable 3-seater sofa with matching armchairs for the perfect living room setup",
-      category: "Seating"
+      pid: "Seating"
     },
     {
       id: 2,
       name: "Coffee Table",
       image: "prod2.jpg",
       description: "Elegant coffee table with storage drawer, perfect for books and magazines",
-      category: "Tables"
+      pid: "Tables"
     },
     {
       id: 3,
       name: "TV Unit",
       image: "prod3.jpg",
       description: "Modern TV unit with cable management and additional storage compartments",
-      category: "Entertainment"
+      pid: "Entertainment"
     },
     {
       id: 4,
       name: "Side Tables",
       image: "prod1.jpg",
       description: "Matching side tables with elegant design to complement your sofa",
-      category: "Tables"
+      pid: "Tables"
     },
     {
       id: 5,
       name: "Bookshelf",
       image: "prod2.jpg",
       description: "Stylish bookshelf with adjustable shelves for books and decorative items",
-      category: "Storage"
+      pid: "Storage"
     },
     {
       id: 6,
       name: "Floor Lamp",
       image: "prod3.jpg",
       description: "Contemporary floor lamp with adjustable head for perfect ambient lighting",
-      category: "Lighting"
+      pid: "Lighting"
     },
     {
       id: 7,
       name: "Side Tables",
       image: "Calisto-LR-ST-103.jpg",
       description: "Matching side tables with elegant design to complement your sofa",
-      category: "Tables"
+      pid: "LR-ST-103"
     },
     {
       id: 8,
       name: "Side Tables",
       image: "Calisto-LR-ST-104.jpg",
       description: "Matching side tables with elegant design to complement your sofa",
-      category: "Tables"
+      pid: "LR-ST-104"
     },
     {
       id: 9,
       name: "Side Tables",
       image: "Calisto-LR-ST-105.jpg",
       description: "Matching side tables with elegant design to complement your sofa",
-      category: "Tables"
+      pid: "LR-ST-105"
     },
     {
       id: 10,
       name: "Side Tables",
       image: "Calisto-LR-ST-106.jpg",
       description: "Matching side tables with elegant design to complement your sofa",
-      category: "Tables"
+      pid: "LR-ST-106"
     },
     {
       id: 11,
       name: "Bookshelf",
       image: "Calisto-LR-BKS-101.jpg",
       description: "Stylish bookshelf with adjustable shelves for books and decorative items",
-      category: "Storage"
+      pid: "LR-BKS-101"
     },
     {
       id: 12,
       name: "Bookshelf",
       image: "Calisto-LR-BKS-102.jpg",
       description: "Stylish bookshelf with adjustable shelves for books and decorative items",
-      category: "Storage"
+      pid: "LR-BKS-102"
     },
     {
       id: 13,
       name: "Bookshelf",
       image: "Calisto-LR-BKS-103.jpg",
       description: "Stylish bookshelf with adjustable shelves for books and decorative items",
-      category: "Storage"
+      pid: "LR-BKS-103"
     },
     {
       id: 14,
       name: "Bookshelf",
       image: "Calisto-LR-BKS-104.jpg",
       description: "Stylish bookshelf with adjustable shelves for books and decorative items",
-      category: "Storage"
+      pid: "LR-BKS-104"
     },
     {
       id: 15,
       name: "Bookshelf",
       image: "Calisto-LR-BKS-105.jpg",
       description: "Stylish bookshelf with adjustable shelves for books and decorative items",
-      category: "Storage"
+      pid: "LR-BKS-105"
     },
     {
       id: 16,
       name: "Bookshelf",
       image: "Calisto-LR-BKS-106.jpg",
       description: "Stylish bookshelf with adjustable shelves for books and decorative items",
-      category: "Storage"
+      pid: "LR-BKS-106"
     },
   ];
 
@@ -143,7 +143,7 @@ const LivingRoomPage = () => {
               */}
             </div>
             <div className="item-content">
-              <span className="item-category">{item.category}</span>
+              <span className="item-pid">{item.pid}</span>
               <h3>{item.name}</h3>
               <p>{item.description}</p>
             </div>
