@@ -8,43 +8,57 @@ const DiningRoomPage = () => {
       name: "Dining Table Set",
       image: "prod1.jpg",
       description: "Elegant dining table with 6 matching chairs, perfect for family gatherings",
-      category: "Dining Sets"
+      pid: "Dining Sets"
     },
     {
       id: 2,
-      name: "Extendable Table",
-      image: "prod2.jpg",
-      description: "Versatile extendable dining table that seats 4-8 people comfortably",
-      category: "Tables"
-    },
-    {
-      id: 3,
-      name: "Dining Chairs",
-      image: "prod3.jpg",
-      description: "Comfortable upholstered dining chairs with elegant design and padding",
-      category: "Seating"
-    },
-    {
-      id: 4,
       name: "Buffet Cabinet",
       image: "prod1.jpg",
       description: "Stylish buffet cabinet with storage for dining essentials and display space",
-      category: "Storage"
+      pid: "Storage"
     },
     {
-      id: 5,
+      id: 3,
       name: "China Cabinet",
       image: "prod2.jpg",
       description: "Traditional china cabinet with glass doors for displaying fine dinnerware",
-      category: "Storage"
+      pid: "Storage"
+    },
+    {
+      id: 4,
+      name: "Tea Trolley",
+      image: "prod3.jpg",
+      description: "Mobile tea trolley with wheels for serving drinks and appetizers",
+      pid: "Accessories"
+    },
+    {
+      id: 5,
+      name: "Dining Table Set",
+      image: "Calisto-DR-DTS-103.jpg",
+      description: "Elegant dining table with 4 matching chairs, perfect for family gatherings",
+      pid: "DR-DTS-103"
     },
     {
       id: 6,
-      name: "Bar Cart",
-      image: "prod3.jpg",
-      description: "Mobile bar cart with wheels for serving drinks and appetizers",
-      category: "Accessories"
-    }
+      name: "Dining Table Set",
+      image: "Calisto-DR-DTS-101.jpg",
+      description: "Elegant dining table with 8 matching chairs, perfect for family gatherings",
+      pid: "DR-DTS-101"
+    },
+    {
+      id: 7,
+      name: "Dining Table Set",
+      image: "Calisto-DR-DTS-102.jpg",
+      description: "Elegant dining table with 4 matching chairs, perfect for family gatherings",
+      pid: "DR-DTS-102"
+    },
+    {
+      id: 8,
+      name: "Dining Table Set",
+      image: "Calisto-DR-DTS-104.jpg",
+      description: "Elegant dining table with 8 matching chairs, perfect for family gatherings",
+      pid: "DR-DTS-104"
+    },
   ];
 
   const imagePath = (imageName) => {
@@ -73,7 +87,7 @@ const DiningRoomPage = () => {
               */}
             </div>
             <div className="item-content">
-              <span className="item-category">{item.category}</span>
+              <span className="item-pid">{item.pid}</span>
               <h3>{item.name}</h3>
               <p>{item.description}</p>
             </div>
