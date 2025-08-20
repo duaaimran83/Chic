@@ -73,6 +73,48 @@ const LivingRoomPage = () => {
       description: "Matching side tables with elegant design to complement your sofa",
       category: "Tables"
     },
+    {
+      id: 11,
+      name: "Bookshelf",
+      image: "Calisto-LR-BKS-101.jpg",
+      description: "Stylish bookshelf with adjustable shelves for books and decorative items",
+      category: "Storage"
+    },
+    {
+      id: 12,
+      name: "Bookshelf",
+      image: "Calisto-LR-BKS-102.jpg",
+      description: "Stylish bookshelf with adjustable shelves for books and decorative items",
+      category: "Storage"
+    },
+    {
+      id: 13,
+      name: "Bookshelf",
+      image: "Calisto-LR-BKS-103.jpg",
+      description: "Stylish bookshelf with adjustable shelves for books and decorative items",
+      category: "Storage"
+    },
+    {
+      id: 14,
+      name: "Bookshelf",
+      image: "Calisto-LR-BKS-104.jpg",
+      description: "Stylish bookshelf with adjustable shelves for books and decorative items",
+      category: "Storage"
+    },
+    {
+      id: 15,
+      name: "Bookshelf",
+      image: "Calisto-LR-BKS-105.jpg",
+      description: "Stylish bookshelf with adjustable shelves for books and decorative items",
+      category: "Storage"
+    },
+    {
+      id: 16,
+      name: "Bookshelf",
+      image: "Calisto-LR-BKS-106.jpg",
+      description: "Stylish bookshelf with adjustable shelves for books and decorative items",
+      category: "Storage"
+    },
   ];
 
   const imagePath = (imageName) => {

@@ -34,7 +34,7 @@ const RecreationRoomPage = () => {
     {
       id: 5,
       name: "Entertainment Center",
-      image: "prod2.jpg",
+      image: "Calisto-RR-EC-101.jpg", 
       description: "Large entertainment unit with space for TV, gaming consoles, and media storage",
       category: "Storage"
     },
