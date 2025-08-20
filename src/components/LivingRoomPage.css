@@ -29,10 +29,11 @@
   width: 1440px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr); /* now 4 per row */
   gap: 2rem;
   align-items: start;
 }
+
 
 .living-room-item {
   border: 1px solid var(--color-brown);
